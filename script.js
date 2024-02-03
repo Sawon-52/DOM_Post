@@ -4,17 +4,22 @@ const postButton = document.querySelector('.button');
 postButton.addEventListener('click', function(){
     const inputPost = document.querySelector('#text');
     const post = inputPost.value;
+    if(post ==''){
+        alert('Fill text area');
+    }
 
-    const showPost = document.querySelector('.post');
+    else{
+        const showPost = document.querySelector('.post');
     
-    const newElement = document.createElement('p')
-    newElement.innerText = post;
+        const newElement = document.createElement('p')
+        newElement.innerText = post;
 
-    console.log(newElement);
+        // console.log(newElement);
 
-    showPost.appendChild(newElement);
+        showPost.appendChild(newElement);
 
-    inputPost.value = '';
+        inputPost.value = '';
+    }
 
 
 })
