@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    
+    width: 80%;
+    margin: 0 auto;
+    min-height: 400px;
+    background-color: rgb(230, 253, 223);
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    gap: 40px;
+    padding: 40px;
+    border-radius: 10px;
+}
+section .input_area{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+section .input_area > h2,
+.showing > h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(20, 19, 19);
+}
+
+.showing > h2{
+    color: rgb(251, 66, 49);
+}
+/* CSS */
+.button {
+    width: 100px;
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button:hover {
+    transform: translateY(-1px);
+}
+
+.button:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+
+textarea{
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: rgb(66, 65, 65);
+}
+.showing{
+    width: 60%;
+}
+.showing .post p{
+    color: rgb(52, 51, 51);
+    font-size: 20px;
+    border-bottom: 1px solid rgb(101, 100, 100); 
+    padding:8px 5px;
+    margin-top: 10px;
+}
