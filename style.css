@@ -8,7 +8,7 @@ section{
     width: 80%;
     margin: 0 auto;
     min-height: 400px;
-    background-color: rgb(230, 253, 223);
+    background-color: rgb(246, 246, 246);
     margin-top: 30px;
     display: flex;
     justify-content: start;
@@ -32,7 +32,7 @@ section .input_area > h2,
 }
 
 .showing > h2{
-    color: rgb(251, 66, 49);
+    color: #fa6400;
 }
 /* CSS */
 .button {
@@ -94,7 +94,7 @@ textarea{
 .showing .post p{
     color: rgb(52, 51, 51);
     font-size: 20px;
-    border-bottom: 1px solid rgb(101, 100, 100); 
+    border-bottom: 0.5px solid rgb(234, 234, 234); 
     padding:8px 5px;
     margin-top: 10px;
 }

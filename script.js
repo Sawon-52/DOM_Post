@@ -4,8 +4,9 @@ const postButton = document.querySelector('.button');
 postButton.addEventListener('click', function(){
     const inputPost = document.querySelector('#text');
     const post = inputPost.value;
+    
     if(post ==''){
-        alert('Fill text area');
+        alert('Please write some in Text Box');
     }
 
     else{
